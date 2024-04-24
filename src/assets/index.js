@@ -26,6 +26,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import novartoLogo from "./company/novartoLogo.png"
+import ghms from "./company/ghms.png"
+import ghs from "./company/ghs.png"
+
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -59,4 +64,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  novartoLogo,
+  ghms,
+  ghs,
 };

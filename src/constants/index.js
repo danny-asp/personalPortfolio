@@ -16,8 +16,9 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
-    tesla,
+    novartoLogo,
+    ghms,
+    ghs,
     shopify,
     carrent,
     jobit,
@@ -46,17 +47,17 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "React and React Native Developer",
         icon: mobile,
     },
-    {
-        title: "Backend Developer",
-        icon: backend,
-    },
-    {
-        title: "Content Creator",
-        icon: creator,
-    },
+    // {
+    //     title: "Backend Developer",
+    //     icon: backend,
+    // },
+    // {
+    //     title: "Concierge",
+    //     icon: creator,
+    // },
 ];
 
 const technologies = [
@@ -116,55 +117,52 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Junior Front-end developer",
+        company_name: "Novarto ltd.",
+        icon: novartoLogo,
+        iconBg: "white",
+        date: "January 2023 - March 2024",
+        points: [
+            "Played a role in multiple projects utilizing React and React Native technologies, contributing to the development of user interface elements.",
+            "Gain proficiency in creating responsive and visually appealing UI components, enhancing user experience across various applications.",
+            "Strengthened communication skills through active participation in team environments. Expanded technical expertise by gaining exposure to back-end technologies like Node.js, supplementing front-end development skills and contributing to a comprehensive understanding of full-stack development principles.",
+
+        ],
+    },
+    {
+        title: "Intership Trainee Front-end",
+        company_name: "Novarto ltd.",
+        icon: novartoLogo,
+        iconBg: "white",
+        date: "July 2022 - January 2023",
+        points: [
+            "Participated in an intensive training program focused on HTML, CSS, JavaScript, and React, under the mentorship of experienced developers.",
+            "Developed a solid foundation in front-end development principles and practices through hands-on learning and guided projects.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
+        title: "Chief Concierge",
+        company_name: "Grand Hotel Millennium Sofia",
+        icon: ghms,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "Feb 2020 - Jul 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "As main Concierge at a prominent 5-star hotel in Sofia, played a pivotal role in the hotel's grand opening, spearheading the development of the concierge department from its inception",
+            "Additionally, actively contributed to the training and mentorship of front office staff, ensuring seamless coordination between departments and upholding the highest standards of service excellence.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Bellhop / Concierge",
+        company_name: "Grand Hotel Sofia",
+        icon: ghs,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "May 2016 - Feb 2020",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Started as a bellhop at a prestigious 5-star hotel in Sofia, swiftly advancing to the role of concierge due to exceptional service and dedication.",
+            "Developed strong communication and problem-solving skills in a fast-paced, high-demand environment, consistently exceeding guest expectations and upholding the hotel's reputation for excellence. ",
+
         ],
     },
 ];
@@ -258,7 +256,7 @@ const projects = [
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        // source_code_link: "https://github.com/",
     },
 ];
 
